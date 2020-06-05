@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <main class="main">
+        <div class="video">
+            <video class="video-bg" src="imgs/bg_video.mp4" autoplay muted loop></video>
+        </div>
+        
+        <div class="content">
+            <div class="container">
+                <div class="main-block">
+                    <p class="main-block-header">The.Weather</p>
+    
+                    <div class="main-block-content">
+                        <div class="search">
+                            <form class="search-form">
+                                <input type="text" class="city-search" placeholder="Search..." required>
+                                <a href="#" class="clear-search" >Clear</a>
+                                <span class="help-text">Latin characters only</span>
+                            </form>
+                            <ul class="dropdown">
+                            </ul>    
+                        </div>
+                        <h2 class="current-city">Oslo, Today</h2>
+                        <p class="current-date">Monday 23,11:00 AM</p>
+    
+                        <div class="current-tempereture">
+                            <img src="imgs/sun.svg" alt="sun" class="weather-img">
+                            <div class="temperature">
+                                <p class="day-temperature">20&#x2103</p>
+                                <p class="night-temperature">15&#x00B0</p>    
+                            </div>
+                        </div>
+    
+                        <div class="weather-info-blocks">
+                            <div class="swiper-container1">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide blocks-slide">
+                                        <div class="info-block">
+                                            <h3 class="block-title">Wind</h3>
+                                            <img src="imgs/weather_icons/wind.svg" alt="wind" class="block-img">
+                                            <span class="block-desc wind">4.5 km/h</span>
+                                        </div>
+                                        
+                                        <div class="info-block">
+                                            <h3 class="block-title">Sunrise</h3>
+                                            <img src="imgs/weather_icons/sunrise.svg" alt="sunrise" class="block-img">
+                                            <span class="block-desc sunrise">7 am</span>
+                                        </div>
+                                    </div>
+    
+                                    <div class="swiper-slide blocks-slide">
+                                        <div class="info-block">
+                                            <h3 class="block-title">Humidity</h3>
+                                            <img src="imgs/weather_icons/humidity.svg" alt="humidity" class="block-img">
+                                            <span class="block-desc humidity">12%</span>
+                                        </div>
+    
+                                        <div class="info-block">
+                                            <h3 class="block-title">Sunset</h3>
+                                            <img src="imgs/weather_icons/sunset.svg" alt="sunset" class="block-img">
+                                            <span class="block-desc sunset">17 pm</span>
+                                        </div>            
+                                    </div>
+    
+                                    <div class="swiper-slide blocks-slide">
+                                        <div class="info-block">
+                                            <h3 class="block-title">Cloudy</h3>
+                                            <img src="imgs/weather_icons/cloudy.svg" alt="cloudy" class="block-img">
+                                            <span class="block-desc cloudy">6.3 km</span>
+                                        </div>
+    
+                                        <div class="info-block">
+                                            <h3 class="block-title">Pressure</h3>
+                                            <img src="imgs/weather_icons/pressure.svg" alt="pressure" class="block-img">
+                                            <span class="block-desc pressure">15.10 in</span>
+                                        </div>            
+                                    </div>
+                                </div>
+                                <div class="btn-prev"></div>
+                                <div class="btn-next"></div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="secondary-block">
+                    <h2 class="current-geo">Oslo, NO</h2>
+                    <h4 class="section-title">Daily</h4>
+                    <div class="weather-days-cards">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide weather-slide"> 
+                                    <div class="day-card">
+                                        <h3 class="card-title">Mon 24</h3>
+                                        <div class="day-weather">
+                                            <img src="imgs/card_imgs/clearsky.svg" alt="weather-icon" class="card-icon">
+                                            <div class="card-temperature">
+                                                <p class="card-temperature-day">24&#x00B0</p>
+                                                <p class="card-temperature-night">15&#x00B0</p>
+                                            </div>
+                                        </div>
+                                        <p class="weather-desc">Pleasant for walking</p>
+                                        <span class="weather-main">Hot</span>
+                                    </div>
+                                </div>
+    
+                                <div class="swiper-slide weather-slide">
+                                    <div class="day-card">
+                                        <h3 class="card-title">Mon 24</h3>
+                                        <div class="day-weather">
+                                            <img src="imgs/card_imgs/clearsky.svg" alt="weather-icon" class="card-icon">
+                                            <div class="card-temperature">
+                                                <p class="card-temperature-day">24&#x00B0</p>
+                                                <p class="card-temperature-night">15&#x00B0</p>
+                                            </div>
+                                        </div>
+                                        <p class="weather-desc">Pleasant for walking</p>
+                                        <span class="weather-main">Hot</span>
+                                    </div>
+                                </div>
+    
+                                <div class="swiper-slide weather-slide">
+                                    <div class="day-card">
+                                        <h3 class="card-title">Mon 24</h3>
+                                        <div class="day-weather">
+                                            <img src="imgs/card_imgs/clearsky.svg" alt="weather-icon" class="card-icon">
+                                            <div class="card-temperature">
+                                                <p class="card-temperature-day">24&#x00B0</p>
+                                                <p class="card-temperature-night">15&#x00B0</p>
+                                            </div>
+                                        </div>
+                                        <p class="weather-desc">Pleasant for walking</p>
+                                        <span class="weather-main">Hot</span>
+                                    </div>
+                                </div>
+    
+                                <div class="swiper-slide weather-slide">
+                                    <div class="day-card">
+                                        <h3 class="card-title">Mon 24</h3>
+                                        <div class="day-weather">
+                                            <img src="imgs/card_imgs/clearsky.svg" alt="weather-icon" class="card-icon">
+                                            <div class="card-temperature">
+                                                <p class="card-temperature-day">24&#x00B0</p>
+                                                <p class="card-temperature-night">15&#x00B0</p>
+                                            </div>
+                                        </div>
+                                        <p class="weather-desc">Pleasant for walking</p>
+                                        <span class="weather-main">Hot</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="swiper-slide weather-slide">
+                                    <div class="day-card">
+                                        <h3 class="card-title">Mon 24</h3>
+                                        <div class="day-weather">
+                                            <img src="imgs/card_imgs/clearsky.svg" alt="weather-icon" class="card-icon">
+                                            <div class="card-temperature">
+                                                <p class="card-temperature-day">24&#x00B0</p>
+                                                <p class="card-temperature-night">15&#x00B0</p>
+                                            </div>
+                                        </div>
+                                        <p class="weather-desc">Pleasant for walking</p>
+                                        <span class="weather-main">Hot</span>
+                                    </div>
+                                </div>
+    
+                                <div class="swiper-slide weather-slide">
+                                    <div class="day-card">
+                                        <h3 class="card-title">Mon 24</h3>
+                                        <div class="day-weather">
+                                            <img src="imgs/card_imgs/clearsky.svg" alt="weather-icon" class="card-icon">
+                                            <div class="card-temperature">
+                                                <p class="card-temperature-day">24&#x00B0</p>
+                                                <p class="card-temperature-night">15&#x00B0</p>
+                                            </div>
+                                        </div>
+                                        <p class="weather-desc">Pleasant for walking</p>
+                                        <span class="weather-main">Hot</span>
+                                    </div>
+                                </div>
+    
+                                <div class="swiper-slide weather-slide">
+                                    <div class="day-card">
+                                        <h3 class="card-title">Mon 24</h3>
+                                        <div class="day-weather">
+                                            <img src="imgs/card_imgs/clearsky.svg" alt="weather-icon" class="card-icon">
+                                            <div class="card-temperature">
+                                                <p class="card-temperature-day">24&#x00B0</p>
+                                                <p class="card-temperature-night">15&#x00B0</p>
+                                            </div>
+                                        </div>
+                                        <p class="weather-desc">Pleasant for walking</p>
+                                        <span class="weather-main">Hot</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="prev"></div>
+                        <div class="next"></div>
+                    </div>
+                    <h4 class="section-title">Hourly</h4>
+
+                    <div class="hourly-section">
+                        <div class="chart-block">
+                            <div class="canvas-wrapper">
+                                <canvas id="myChart" class="chart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
